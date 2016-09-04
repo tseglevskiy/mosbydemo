@@ -9,7 +9,7 @@ android:
     - android-24
 
 before_install:
-		- chmod +x gradlew
+    - chmod +x gradlew
 
 script:
-   - ./gradlew clean assemble
+    - ./gradlew clean assemble
